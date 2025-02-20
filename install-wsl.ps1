@@ -93,6 +93,6 @@ wsl -d Ubuntu -u root -- bash -c "sudo apt update && sudo apt upgrade"
 wsl -d Ubuntu -u root -- bash -c "sudo update-alternatives --set iptables /usr/sbin/iptables-legacy"
 wsl -d Ubuntu -u root -- bash -c "sudo update-alternatives --set ip6tables /usr/sbin/ip6tables-legacy"
 wsl -d Ubuntu -u root -- bash -c "sudo apt install podman -y"
-wsl -d Ubuntu -u root -- bash -c "podman run -d --name mongo -p 27017:27017 docker.io/mongo:latest"
+wsl -d Ubuntu -u root -- bash -c "sudo apt install gzip -y"
 
 
