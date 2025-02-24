@@ -87,7 +87,7 @@ wsl -d Ubuntu -u root -- bash -c "echo -e '[user]\ndefault=$defaultUser' > /etc/
 
 Write-Host "Usuário '$defaultUser' criado e configurado como padrão no Ubuntu WSL." -ForegroundColor Green
 
-# Instalar o Podman e criar Container MongoDB
+# Instalar o Podman 
 
 wsl -d Ubuntu -u root -- bash -c "sudo apt update && sudo apt upgrade"
 wsl -d Ubuntu -u root -- bash -c "sudo update-alternatives --set iptables /usr/sbin/iptables-legacy"
