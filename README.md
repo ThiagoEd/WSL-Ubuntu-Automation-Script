@@ -8,8 +8,8 @@ Um script PowerShell para automatizar a instalação e configuração do WSL 2 c
 - Instalação e configuração do Ubuntu
 - Criação automática de usuário com privilégios sudo
 - Instalação do Podman
+- Instalação do Gzip
 - Configuração do ambiente para containers
-- Preparação para MongoDB
 
 ## 🔧 Pré-requisitos
 
